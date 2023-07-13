@@ -11,8 +11,8 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 from bs4 import BeautifulSoup
 
-API = constants.API_key
-token_API = constants.token #telebot.TeleBot(constants.token)
+API = constants.API_KEY
+token_API = constants.TOKEN #telebot.TeleBot(constants.token)
 bot = Bot(token_API)
 dp = Dispatcher(bot)
 Sending_prices = 0
